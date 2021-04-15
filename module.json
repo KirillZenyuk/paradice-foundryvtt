@@ -16,7 +16,7 @@
     "style.css"
   ],
   "scripts": [
-
+    "scripts/paradice.js"
   ],
   "url": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice",
   "manifest": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/module.json",
