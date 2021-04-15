@@ -4,7 +4,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d20",
         labels: [
-            "Ψ",
+            "1",
             "2",
             "3",
             "4",
@@ -23,7 +23,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "17",
             "18",
             "19",
-            "20"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     }, "d20");
@@ -31,8 +31,8 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d2",
         labels: [
-            "Ψ",
-            "☀"
+            "1",
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     });
@@ -40,9 +40,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "df",
         labels: [
-            "Ψ",
+            "1",
             "",
-            "☀"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice",
         fontScale: 1.3
@@ -51,10 +51,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d4",
         labels: [
-            "Ψ",
+            "1",
             "2",
             "3",
-            "4"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     }, "d4");
@@ -62,12 +62,12 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d6",
         labels: [
-            "Ψ",
+            "1",
             "2",
             "3",
             "4",
             "5",
-            "6"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     }, "d6");
@@ -75,14 +75,14 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d8",
         labels: [
-            "Ψ",
+            "1",
             "2",
             "3",
             "4",
             "5",
             "6",
             "7",
-            "8"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     }, "d8");
@@ -90,7 +90,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d10",
         labels: [
-            "Ψ",
+            "1",
             "2",
             "3",
             "4",
@@ -99,7 +99,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "7",
             "8",
             "9",
-            "10"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     }, "d10");
@@ -107,7 +107,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
         type: "d12",
         labels: [
-            "Ψ",
+            "1",
             "2",
             "3",
             "4",
@@ -118,7 +118,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "9",
             "10",
             "11",
-            "12"
+            "graphics/icons/paradice-trident.png"
         ],
         system: "ParaDice"
     }, "d12");
