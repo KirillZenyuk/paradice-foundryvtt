@@ -3,7 +3,13 @@
   "title": "ParaDice Custom Dice set for Dice So Nice",
   "description": "Custom Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
   "version": "0.1",
-  "author": "Kirill Zenyuk",
+  "author": "KirillZenyuk",
+  "authors": [
+    {
+      "name": "KirillZenyuk",
+      "url": "https://gitlab.com/KirillZenyuk"
+    }
+  ],
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "dependencies": [
