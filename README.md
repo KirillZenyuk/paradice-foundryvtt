@@ -1,5 +1,7 @@
 # FoundryVTT ParaDice module for Dice So Nice
 
+This is a Dice So Nice FoundryVTT module expansion. This module adds new custom dice presets and themes.
+
 ## Installation
 
 1. Open FoundryVTT, go to Add-on Modules tab in the Configuration and Setup menu,
