@@ -1,0 +1,25 @@
+{
+  "name": "ParaDice",
+  "title": "ParaDice Custom Dice set for Dice So Nice",
+  "description": "Custom Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
+  "version": "0.1",
+  "author": "Kirill Zenyuk",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.9",
+  "dependencies": [
+    {
+      "name": "dice-so-nice",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+    }
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "scripts": [
+
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "readme": ""
+}
