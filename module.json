@@ -18,8 +18,8 @@
   "scripts": [
 
   ],
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "readme": ""
+  "url": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice",
+  "manifest": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/module.json",
+  "download": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/archive/master/foundryvtt-paradice-master.zip",
+  "readme": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/README.md"
 }
