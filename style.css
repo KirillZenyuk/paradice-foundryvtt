@@ -1,0 +1,8 @@
+/* pinyon-script-regular - latin */
+@font-face {
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pinyon Script'),
+    url('../paradice/fonts/pinyon-script-v11-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+}

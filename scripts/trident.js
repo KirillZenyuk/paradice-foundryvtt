@@ -9,21 +9,22 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         .then(() => {
             dice3d.addColorset({
                 name: 'ParaDice — Trident colors',
-                description: "Gorgeous Water",
+                description: "ParaDice — Trident colors",
                 category: "ParaDice — Trident",
-                background: "#d4f1f9",
-                foreground: '#999',
-                outline: '#FFD600',
-                edge: '#FFEA00',
+                background: "#0277bd",
+                foreground: '#ffee58',
+                outline: '#fbc02d',
+                edge: '#f57f17',
                 texture: 'water',
-                material: 'metal',
+                material: 'wood',
                 fontScale: {
-                    "d100":0.8,
-                    "d20": 0.9,
-                    "d12":1.0,
-                    "d10": 0.9,
+                    "d100":0.7,
+                    "d20": 0.85,
+                    "d12":1.1,
+                    "d10": 0.8,
                     "d8": 0.9,
-                    "d6":1.2,
+                    "d6":1.3,
+                    "d4":0.7,
                     "d2":1.3
                 },
                 font:"Pinyon Script"
@@ -85,7 +86,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "3",
             "modules/paradice/graphics/icons/paradice-trident.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-trident",
     }, "d4");
 
     dice3d.addDicePreset({
