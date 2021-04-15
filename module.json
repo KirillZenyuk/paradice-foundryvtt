@@ -1,5 +1,5 @@
 {
-  "name": "ParaDice",
+  "name": "paradice",
   "title": "ParaDice Custom Dice set for Dice So Nice",
   "description": "Custom Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
   "version": "0.1.1",
@@ -22,7 +22,7 @@
     "style.css"
   ],
   "scripts": [
-    "scripts/paradice.js"
+    "scripts/trident.js"
   ],
   "url": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice",
   "manifest": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/module.json",
