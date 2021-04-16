@@ -1,21 +1,22 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addSystem({id: "paradice-trident", name: "ParaDice — Trident"}, false);
 
-    dice3d.addTexture("water", {
-        name: "ParaDice — Water",
+    dice3d.addTexture("deep-water", {
+        name: "Deep Water",
         composite: "multiply",
-        source: "modules/paradice/graphics/water.png",
+        source: "modules/paradice/graphics/water3.png",
+        bump: "modules/paradice/graphics/water3.png"
     })
         .then(() => {
             dice3d.addColorset({
                 name: 'ParaDice — Trident colors',
                 description: "ParaDice — Trident colors",
-                category: "ParaDice — Trident",
+                category: "ParaDice",
                 background: "#0277bd",
                 foreground: '#ffee58',
                 outline: '#fbc02d',
                 edge: '#f57f17',
-                texture: 'water',
+                texture: 'deep-water',
                 material: 'wood',
                 fontScale: {
                     "d100":0.7,
@@ -53,7 +54,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "17",
             "18",
             "19",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident"
     }, "d20");
@@ -62,7 +63,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         type: "d2",
         labels: [
             "1",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident"
     });
@@ -72,7 +73,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         labels: [
             "1",
             "",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident",
         fontScale: 1.3
@@ -84,7 +85,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "1",
             "2",
             "3",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident",
     }, "d4");
@@ -97,7 +98,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "3",
             "4",
             "5",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident"
     }, "d6");
@@ -112,7 +113,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "5",
             "6",
             "7",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident"
     }, "d8");
@@ -129,7 +130,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "7",
             "8",
             "9",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident"
     }, "d10");
@@ -148,7 +149,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "9",
             "10",
             "11",
-            "modules/paradice/graphics/icons/paradice-trident.png"
+            "modules/paradice/graphics/icons/paradice-trident-colored.png"
         ],
         system: "paradice-trident"
     }, "d12");
