@@ -1,23 +1,23 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
-    dice3d.addSystem({id: "paradice-trident", name: "ParaDice — Trident"}, false);
+    dice3d.addSystem({id: "paradice-horned-hammer", name: "ParaDice — Horned Hammer"}, false);
 
-    dice3d.addTexture("deep-water", {
-        name: "Deep Water",
+    dice3d.addTexture("dark-marble", {
+        name: "Dark Marble",
         composite: "multiply",
-        source: "modules/paradice/graphics/water3.png",
-        bump: "modules/paradice/graphics/water3.png"
+        source: "modules/paradice/graphics/marble.png",
+        bump: "modules/paradice/graphics/marble.png"
     })
         .then(() => {
             dice3d.addColorset({
-                name: 'ParaDice — Trident colors',
-                description: "ParaDice — Trident colors",
+                name: 'ParaDice — Horned Hammer colors',
+                description: "ParaDice — Horned Hammer colors",
                 category: "ParaDice",
                 background: "#0277bd",
                 foreground: '#ffee58',
                 outline: '#fbc02d',
                 edge: '#f57f17',
-                texture: 'deep-water',
-                material: 'metal',
+                texture: 'dark-marble',
+                material: 'wood',
                 fontScale: {
                     "d100":0.7,
                     "d20": 0.85,
@@ -28,7 +28,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
                     "d4":0.7,
                     "d2":1.3
                 },
-                font:"Pinyon Script"
+                font:"Beth Ellen"
             },"no");
         });
 
@@ -54,18 +54,18 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "17",
             "18",
             "19",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     }, "d20");
 
     dice3d.addDicePreset({
         type: "d2",
         labels: [
             "1",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     });
 
     dice3d.addDicePreset({
@@ -73,9 +73,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         labels: [
             "1",
             "",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident",
+        system: "paradice-horned-hammer",
         fontScale: 1.3
     }, "df");
 
@@ -85,9 +85,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "1",
             "2",
             "3",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident",
+        system: "paradice-horned-hammer",
     }, "d4");
 
     dice3d.addDicePreset({
@@ -98,9 +98,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "3",
             "4",
             "5",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     }, "d6");
 
     dice3d.addDicePreset({
@@ -113,9 +113,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "5",
             "6",
             "7",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     }, "d8");
 
     dice3d.addDicePreset({
@@ -130,9 +130,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "7",
             "8",
             "9",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     }, "d10");
 
     dice3d.addDicePreset({
@@ -149,9 +149,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "9",
             "10",
             "11",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     }, "d12");
 
     dice3d.addDicePreset({
@@ -168,6 +168,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "90",
             "00",
         ],
-        system: "paradice-trident"
+        system: "paradice-horned-hammer"
     }, "d10");
 })
