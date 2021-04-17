@@ -4,13 +4,13 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addTexture("deep-water", {
         name: "Deep Water",
         composite: "multiply",
-        source: "modules/paradice/graphics/water3.png",
-        bump: "modules/paradice/graphics/water3.png"
+        source: "modules/paradice/graphics/water.png",
+        bump: "modules/paradice/graphics/water.png"
     })
         .then(() => {
             dice3d.addColorset({
-                name: 'ParaDice — Trident colors',
-                description: "ParaDice — Trident colors",
+                name: 'Trident colors',
+                description: "Trident colors",
                 category: "ParaDice",
                 background: "#0277bd",
                 foreground: '#ffee58',

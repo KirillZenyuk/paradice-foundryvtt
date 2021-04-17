@@ -9,15 +9,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     })
         .then(() => {
             dice3d.addColorset({
-                name: 'ParaDice — Horned Hammer colors',
-                description: "ParaDice — Horned Hammer colors",
+                name: 'Horned Hammer colors',
+                description: "Horned Hammer colors",
                 category: "ParaDice",
                 background: "#0277bd",
                 foreground: '#ffee58',
                 outline: '#fbc02d',
                 edge: '#f57f17',
                 texture: 'dark-marble',
-                material: 'wood',
+                material: 'glass',
                 fontScale: {
                     "d100":0.7,
                     "d20": 0.85,
@@ -28,7 +28,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
                     "d4":0.7,
                     "d2":1.3
                 },
-                font:"Beth Ellen"
+                font:"Arizonia"
             },"no");
         });
 
