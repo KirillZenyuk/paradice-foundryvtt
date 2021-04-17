@@ -28,8 +28,8 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
                     "d4": 0.8,
                     "d2": 2.0
                 },
-                font:"Arizonia"
-            },"no");
+                font: "Arizonia"
+            }, "no");
         });
 
     dice3d.addDicePreset({
