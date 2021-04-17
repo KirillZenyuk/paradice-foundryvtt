@@ -12,21 +12,21 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
                 name: 'Horned Hammer colors',
                 description: "Horned Hammer colors",
                 category: "ParaDice",
-                background: "#0277bd",
-                foreground: '#ffee58',
-                outline: '#fbc02d',
-                edge: '#f57f17',
+                background: "#757575",
+                foreground: '#FFFF00',
+                outline: '#FFEA00',
+                edge: '#FFFF00',
                 texture: 'dark-marble',
                 material: 'glass',
                 fontScale: {
-                    "d100":0.7,
-                    "d20": 0.85,
-                    "d12":1.1,
-                    "d10": 0.8,
-                    "d8": 0.9,
-                    "d6":1.3,
-                    "d4":0.7,
-                    "d2":1.3
+                    "d100": 1.0,
+                    "d20": 1.2,
+                    "d12": 1.6,
+                    "d10": 1.2,
+                    "d8": 1.2,
+                    "d6": 2.0,
+                    "d4": 0.8,
+                    "d2": 2.0
                 },
                 font:"Arizonia"
             },"no");
@@ -85,7 +85,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "1",
             "2",
             "3",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "4"
         ],
         system: "paradice-horned-hammer",
     }, "d4");

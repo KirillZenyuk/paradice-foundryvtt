@@ -12,21 +12,21 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
                 name: 'Trident colors',
                 description: "Trident colors",
                 category: "ParaDice",
-                background: "#0277bd",
-                foreground: '#ffee58',
-                outline: '#fbc02d',
-                edge: '#f57f17',
+                background: "#1E88E5",
+                foreground: '#FFEA00',
+                outline: '#FFD600',
+                edge: '#FFD600',
                 texture: 'deep-water',
                 material: 'metal',
                 fontScale: {
-                    "d100":0.7,
-                    "d20": 0.85,
-                    "d12":1.1,
+                    "d100": 0.7,
+                    "d20": 0.8,
+                    "d12": 1.1,
                     "d10": 0.8,
                     "d8": 0.9,
-                    "d6":1.3,
-                    "d4":0.7,
-                    "d2":1.3
+                    "d6": 1.3,
+                    "d4": 0.7,
+                    "d2": 1.3
                 },
                 font:"Pinyon Script"
             },"no");
@@ -85,7 +85,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "1",
             "2",
             "3",
-            "modules/paradice/graphics/icons/paradice-trident-colored.png"
+            "4"
         ],
         system: "paradice-trident",
     }, "d4");
