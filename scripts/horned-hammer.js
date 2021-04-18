@@ -13,9 +13,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
                 description: "Horned Hammer colors",
                 category: "ParaDice",
                 background: "#757575",
-                foreground: '#FFFF00',
-                outline: '#FFEA00',
-                edge: '#FFFF00',
+                foreground: '#996515',
+                outline: '#8A5B13',
+                edge: '#CCB28A',
                 texture: 'dark-marble',
                 material: 'glass',
                 fontScale: {
@@ -54,7 +54,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "17",
             "18",
             "19",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer"
     }, "d20");
@@ -63,7 +63,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         type: "d2",
         labels: [
             "1",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer"
     });
@@ -73,7 +73,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         labels: [
             "1",
             "",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer",
         fontScale: 1.3
@@ -98,7 +98,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "3",
             "4",
             "5",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer"
     }, "d6");
@@ -113,7 +113,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "5",
             "6",
             "7",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer"
     }, "d8");
@@ -130,7 +130,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "7",
             "8",
             "9",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer"
     }, "d10");
@@ -149,7 +149,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             "9",
             "10",
             "11",
-            "modules/paradice/graphics/icons/paradice-horned-hammer.png"
+            "modules/paradice/graphics/icons/paradice-horned-hammer-colored.png"
         ],
         system: "paradice-horned-hammer"
     }, "d12");
