@@ -7,7 +7,7 @@
   "authors": [
     {
       "name": "KirillZenyuk",
-      "url": "https://gitlab.com/KirillZenyuk"
+      "url": "https://github.com/KirillZenyuk"
     }
   ],
   "minimumCoreVersion": "0.8.9",
@@ -27,8 +27,8 @@
     "scripts/horned-hammer.js",
     "scripts/trident.js"
   ],
-  "url": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice",
-  "manifest": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/module.json",
-  "download": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/-/archive/master/foundryvtt-paradice-master.zip",
+  "url": "https://github.com/KirillZenyuk/paradice-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/KirillZenyuk/paradice-foundryvtt/master/module.json",
+  "download": "https://github.com/KirillZenyuk/paradice-foundryvtt/archive/refs/tags/0.2.2.zip",
   "readme": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/README.md"
 }
