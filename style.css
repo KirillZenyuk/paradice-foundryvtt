@@ -1,4 +1,19 @@
-/* pinyon-script-regular - latin */
+@font-face {
+    font-family: 'Alchemy Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alchemy Cyrillic'),
+    url('../paradice/fonts/alchemy.woff2') format('woff2') /* Super Modern Browsers */
+}
+
+@font-face {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arizonia'),
+    url('../paradice/fonts/arizonia-v11-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
 @font-face {
     font-family: 'Pinyon Script';
     font-style: normal;
@@ -7,20 +22,10 @@
     url('../paradice/fonts/pinyon-script-v11-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
-/* arizonia-regular - latin */
 @font-face {
-    font-family: 'Arizonia';
+    font-family: 'Red Dragons';
     font-style: normal;
     font-weight: 400;
-    src: local('Pinyon Script'),
-    url('../paradice/fonts/arizonia-v11-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-
-/* beth-ellen-regular - latin */
-@font-face {
-    font-family: 'Beth Ellen';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Pinyon Script'),
-    url('../paradice/fonts/beth-ellen-v5-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+    src: local('Red Dragons'),
+    url('../paradice/fonts/red-dragons.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
