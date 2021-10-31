@@ -3,7 +3,15 @@
     font-style: normal;
     font-weight: 400;
     src: local('Alchemy Cyrillic'),
-    url('../paradice/fonts/alchemy.woff2') format('woff2') /* Super Modern Browsers */
+    url('../paradice/fonts/alchemy.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Are You Serious';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Are You Serious'),
+    url('../paradice/fonts/are-you-serious-v1-latin-regular.woff2') format('woff2')
 }
 
 @font-face {
@@ -11,21 +19,37 @@
     font-style: normal;
     font-weight: 400;
     src: local('Arizonia'),
-    url('../paradice/fonts/arizonia-v11-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../paradice/fonts/arizonia-v11-latin-regular.woff2') format('woff2')
 }
+
+@font-face {
+    font-family: 'MedievalSharp';
+    font-style: normal;
+    font-weight: 400;
+    src: local('MedievalSharp'),
+    url('../paradice/fonts/medievalsharp-v14-latin-regular.woff2') format('woff2')
+  }
 
 @font-face {
     font-family: 'Pinyon Script';
     font-style: normal;
     font-weight: 400;
     src: local('Pinyon Script'),
-    url('../paradice/fonts/pinyon-script-v11-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../paradice/fonts/pinyon-script-v11-latin-regular.woff2') format('woff2')
 }
+
+@font-face {
+    font-family: 'Comic Runes';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../paradice/fonts/ComicRunes.woff2') format('woff2')
+  }
 
 @font-face {
     font-family: 'Red Dragons';
     font-style: normal;
     font-weight: 400;
     src: local('Red Dragons'),
-    url('../paradice/fonts/red-dragons.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../paradice/fonts/red-dragons.woff2') format('woff2')
 }
