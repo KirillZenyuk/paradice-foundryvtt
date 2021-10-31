@@ -2,7 +2,7 @@
   "name": "paradice",
   "title": "ParaDice Custom Dice set for Dice So Nice",
   "description": "Custom Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Kirill Zenyuk",
   "authors": [
     {
@@ -25,6 +25,8 @@
     "scripts/alchemist.js",
     "scripts/dragon.js",
     "scripts/horned-hammer.js",
+    "scripts/star-tree.js",
+    "scripts/tentacle.js",
     "scripts/trident.js"
   ],
   "url": "https://github.com/KirillZenyuk/paradice-foundryvtt",
