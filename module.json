@@ -2,7 +2,7 @@
   "name": "paradice",
   "title": "ParaDice Custom Dice set for Dice So Nice",
   "description": "Custom Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "author": "Kirill Zenyuk",
   "authors": [
     {
@@ -10,27 +10,28 @@
       "url": "https://github.com/KirillZenyuk"
     }
   ],
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "0.8.9",
+  "minimumCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "0.9.269",
   "dependencies": [
     {
       "name": "dice-so-nice",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+      "manifest": "https://raw.githubusercontent.com/KirillZenyuk/paradice-foundryvtt/master/module.json"
     }
   ],
   "styles": [
     "style.css"
   ],
   "scripts": [
-    "scripts/alchemist.js",
     "scripts/dragon.js",
     "scripts/horned-hammer.js",
+    "scripts/master.js",
     "scripts/star-tree.js",
     "scripts/tentacle.js",
-    "scripts/trident.js"
+    "scripts/trident.js",
+    "scripts/water-element.js"
   ],
   "url": "https://github.com/KirillZenyuk/paradice-foundryvtt",
   "manifest": "https://raw.githubusercontent.com/KirillZenyuk/paradice-foundryvtt/master/module.json",
-  "download": "https://github.com/KirillZenyuk/paradice-foundryvtt/archive/refs/tags/0.2.3.zip",
-  "readme": "https://gitlab.com/KirillZenyuk/foundryvtt-paradice/raw/master/README.md"
+  "download": "https://github.com/KirillZenyuk/paradice-foundryvtt/archive/refs/tags/0.3.0.zip",
+  "readme": "https://raw.githubusercontent.com/KirillZenyuk/paradice-foundryvtt/master/README.md"
 }
