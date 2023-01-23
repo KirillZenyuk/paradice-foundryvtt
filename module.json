@@ -2,7 +2,7 @@
   "name": "paradice",
   "title": "ParaDice Custom Dice set for Dice So Nice",
   "description": "Custom Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Kirill Zenyuk",
   "authors": [
     {
@@ -10,8 +10,12 @@
       "url": "https://github.com/KirillZenyuk"
     }
   ],
-  "minimumCoreVersion": "0.9.0",
-  "compatibleCoreVersion": "0.9.269",
+  "minimumCoreVersion" : "10.291",
+  "compatibleCoreVersion" : 10,
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.291"
+  },
   "dependencies": [
     {
       "name": "dice-so-nice",
@@ -22,6 +26,7 @@
     "style.css"
   ],
   "scripts": [
+    "scripts/archfey.js",
     "scripts/dragon.js",
     "scripts/horned-hammer.js",
     "scripts/master.js",
