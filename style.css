@@ -53,3 +53,12 @@
     src: local('Red Dragons'),
     url('../paradice/fonts/red-dragons.woff2') format('woff2')
 }
+
+/**/
+
+@font-face {
+    font-family: "ParadiceAlien";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../paradice/fonts/icons/ParadiceAlien.woff2') format('woff2');
+}

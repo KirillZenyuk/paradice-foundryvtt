@@ -1,6 +1,8 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addSystem({id: "paradice-alien", name: "ParaDice — Alien"}, false);
 
+  const PARADICE_ALIEN = "\uE001";
+
   dice3d.addDicePreset({
     type: "d20",
     labels: [
@@ -23,18 +25,20 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       "17",
       "18",
       "19",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
-    system: "paradice-alien"
+    system: "paradice-alien",
+    font: 'ParadiceAlien',
   }, "d20");
 
   dice3d.addDicePreset({
     type: "d2",
     labels: [
       "1",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
-    system: "paradice-alien"
+    system: "paradice-alien",
+    font: 'ParadiceAlien',
   });
 
   dice3d.addDicePreset({
@@ -42,9 +46,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     labels: [
       "1",
       "",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
     system: "paradice-alien",
+    font: 'ParadiceAlien',
     fontScale: 1.3
   }, "df");
 
@@ -67,9 +72,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       "3",
       "4",
       "5",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
     system: "paradice-alien",
+    font: 'ParadiceAlien',
     fontScale: 1.4
   }, "d6");
 
@@ -83,9 +89,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       "5",
       "6",
       "7",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
-    system: "paradice-alien"
+    system: "paradice-alien",
+    font: 'ParadiceAlien',
   }, "d8");
 
   dice3d.addDicePreset({
@@ -100,9 +107,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       "7",
       "8",
       "9",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
-    system: "paradice-alien"
+    system: "paradice-alien",
+    font: 'ParadiceAlien',
   }, "d10");
 
   dice3d.addDicePreset({
@@ -119,9 +127,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       "9",
       "10",
       "11",
-      "modules/paradice/graphics/icons/paradice-alien.png"
+      PARADICE_ALIEN
     ],
-    system: "paradice-alien"
+    system: "paradice-alien",
+    font: 'ParadiceAlien',
   }, "d12");
 
   dice3d.addDicePreset({
