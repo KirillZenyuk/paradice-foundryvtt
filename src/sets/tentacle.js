@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/tentacle-colored.png`
 
@@ -10,8 +10,7 @@ export const tentacleSet = {
     id: 'ametyst',
     name: 'Ametyst',
     composite: 'multiply',
-    source: `${MODULE_PATH}/graphics/ametyst.png`,
-    bump: `${MODULE_PATH}/graphics/ametyst.png`,
+    source: `${MODULE_PATH}/graphics/textures/ametyst.png`,
   },
   colorset: {
     name: 'Tentacle colors',
@@ -35,5 +34,5 @@ export const tentacleSet = {
     },
     font: 'Are You Serious',
   },
-  dice: buildIconDice({ system: 'paradice-tentacle', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-tentacle', icon: ICON }),
 }

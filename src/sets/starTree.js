@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/star-tree-colored.png`
 
@@ -10,8 +10,7 @@ export const starTreeSet = {
     id: 'space',
     name: 'Space',
     composite: 'multiply',
-    source: `${MODULE_PATH}/graphics/space.png`,
-    bump: `${MODULE_PATH}/graphics/space.png`,
+    source: `${MODULE_PATH}/graphics/textures/space.png`,
   },
   colorset: {
     name: 'Star Tree colors',
@@ -35,5 +34,5 @@ export const starTreeSet = {
     },
     font: 'MedievalSharp',
   },
-  dice: buildIconDice({ system: 'paradice-star-tree', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-star-tree', icon: ICON }),
 }

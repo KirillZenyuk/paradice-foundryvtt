@@ -1,17 +1,16 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/game-master.png`
 
 export const gameMasterSet = {
   id: 'paradice-gm',
-  name: 'ParaDice — GameMaster',
+  name: 'ParaDice — GameMaster1',
   texture: {
     id: 'old-parchment',
     name: 'Old Parchment',
     composite: 'multiply',
-    source: `${MODULE_PATH}/graphics/parchment.png`,
-    bump: `${MODULE_PATH}/graphics/parchment.png`,
+    source: `${MODULE_PATH}/graphics/textures/parchment.png`,
   },
   colorset: {
     name: 'GameMaster colors',
@@ -35,8 +34,8 @@ export const gameMasterSet = {
     },
     font: 'Pinyon Script',
   },
-  dice: buildIconDice({
-    system: 'paradice-dm',
+  dice: buildImageIconDice({
+    system: 'paradice-gm',
     icon: ICON,
   }),
 }

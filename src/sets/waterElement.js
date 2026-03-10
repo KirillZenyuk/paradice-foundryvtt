@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/water-element.png`
 
@@ -10,8 +10,7 @@ export const waterElementSet = {
     id: 'water-element',
     name: 'Water Element',
     composite: 'multiply',
-    source: `${MODULE_PATH}/graphics/ice.png`,
-    bump: `${MODULE_PATH}/graphics/ice.png`,
+    source: `${MODULE_PATH}/graphics/textures/ice.png`,
   },
   colorset: {
     name: 'Water Element colors',
@@ -35,5 +34,5 @@ export const waterElementSet = {
     },
     font: 'Are You Serious',
   },
-  dice: buildIconDice({ system: 'paradice-we', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-we', icon: ICON }),
 }

@@ -1,11 +1,11 @@
-import { buildIconDice } from '../shared/factory.js'
+import { buildGlyphIconDice } from '../shared/factory.js'
 
 const ALIEN = '\uE001'
 
 export const alienSet = {
   id: 'paradice-alien',
   name: 'ParaDice — Alien',
-  dice: buildIconDice({
+  dice: buildGlyphIconDice({
     system: 'paradice-alien',
     icon: ALIEN,
     font: 'ParadiceAlien',

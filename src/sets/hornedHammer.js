@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/horned-hammer-colored.png`
 
@@ -9,8 +9,7 @@ export const hornedHammerSet = {
   texture: {
     id: 'dark-marble',
     name: 'Dark Marble',
-    source: `${MODULE_PATH}/graphics/marble.png`,
-    bump: `${MODULE_PATH}/graphics/marble.png`,
+    source: `${MODULE_PATH}/graphics/textures/marble.png`,
   },
   colorset: {
     name: 'Horned Hammer colors',
@@ -34,5 +33,5 @@ export const hornedHammerSet = {
     },
     font: 'Arizonia',
   },
-  dice: buildIconDice({ system: 'paradice-horned-hammer', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-horned-hammer', icon: ICON }),
 }

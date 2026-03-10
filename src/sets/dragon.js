@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/dragon-head-colored.png`
 
@@ -10,8 +10,7 @@ export const dragonSet = {
     id: 'dragon-scale',
     name: 'Dragon Scale',
     composite: 'multiply',
-    source: `${MODULE_PATH}/graphics/dragon-scale.png`,
-    bump: `${MODULE_PATH}/graphics/dragon-scale.png`,
+    source: `${MODULE_PATH}/graphics/textures/dragon-scale.png`,
   },
   colorset: {
     name: 'Dragon colors',
@@ -35,5 +34,5 @@ export const dragonSet = {
     },
     font: 'Red Dragons',
   },
-  dice: buildIconDice({ system: 'paradice-dragon', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-dragon', icon: ICON }),
 }

@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/trident-colored.png`
 
@@ -10,8 +10,7 @@ export const tridentSet = {
     id: 'deep-water',
     name: 'Deep Water',
     composite: 'multiply',
-    source: `${MODULE_PATH}/graphics/water.png`,
-    bump: `${MODULE_PATH}/graphics/water.png`,
+    source: `${MODULE_PATH}/graphics/textures/water.png`,
   },
   colorset: {
     name: 'Trident colors',
@@ -35,5 +34,5 @@ export const tridentSet = {
     },
     font: 'Pinyon Script',
   },
-  dice: buildIconDice({ system: 'paradice-trident', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-trident', icon: ICON }),
 }

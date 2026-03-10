@@ -1,5 +1,5 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
-import { buildIconDice } from '../shared/factory.js'
+import { buildImageIconDice } from '../shared/factory.js'
 
 const ICON = `${MODULE_PATH}/graphics/icons/archfey-colored.png`
 
@@ -10,8 +10,7 @@ export const archfeySet = {
     id: 'quartz',
     name: 'Quartz',
     composite: 'source-over',
-    source: `${MODULE_PATH}/graphics/quartz.png`,
-    bump: `${MODULE_PATH}/graphics/quartz.png`,
+    source: `${MODULE_PATH}/graphics/textures/quartz.png`,
   },
   colorset: {
     name: 'Archfey colors',
@@ -35,5 +34,5 @@ export const archfeySet = {
     },
     font: 'Pinyon Script',
   },
-  dice: buildIconDice({ system: 'paradice-archfey', icon: ICON }),
+  dice: buildImageIconDice({ system: 'paradice-archfey', icon: ICON }),
 }
