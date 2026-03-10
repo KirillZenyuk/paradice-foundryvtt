@@ -1,7 +1,7 @@
 import { MODULE_PATH, CATEGORY } from '../shared/constants.js'
 import { buildIconDice } from '../shared/factory.js'
 
-const ICON = `${MODULE_PATH}/graphics/icons/paradice-archfey-colored.png`
+const ICON = `${MODULE_PATH}/graphics/icons/archfey-colored.png`
 
 export const archfeySet = {
   id: 'paradice-archfey',
